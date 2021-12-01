@@ -1,8 +1,8 @@
-# Analytics Automation Working Group Session
-
-[Our next Analytics Automation Working Group Session is scheduled for Thursday, December 2, 2021 from 2pm to 3pm EST](https://www.eventbrite.com/e/analytics-automation-working-group-session-tickets-205795288247). Watch demos, request features and get involved.
+[Our next Analytics Automation Working Group Session is scheduled for Thursday, December 2, 2021 from 2pm to 3pm EST](https://www.eventbrite.com/e/analytics-automation-working-group-session-tickets-205795288247). See demos, request features and get involved.
 
 [We are hiring software engineers to build open source software for analytics automation, grants management and hazard mitigation planning for hurricanes, floods and wildfires](https://www.linkedin.com/jobs/view/2676573016). Use your unique skills to build a better tomorrow and improve health, safety, quality of life in our communities. Please remember to include links to your open source profile.
+
+[Most of our open source development is streamed live](https://twitch.tv/crosscompute). Follow our stream for updates and say hello!
 
 ## Analytics Automation System
 
