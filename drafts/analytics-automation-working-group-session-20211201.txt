@@ -1,0 +1,37 @@
+# Analytics Automation Working Group Session
+
+[Our next Analytics Automation Working Group Session is scheduled for Thursday, December 2, 2021 from 2pm to 3pm EST](https://www.eventbrite.com/e/analytics-automation-working-group-session-tickets-205795288247). Watch demos, request features and get involved.
+
+[We are hiring software engineers to build open source software for analytics automation, grants management and hazard mitigation planning for hurricanes, floods and wildfires](https://www.linkedin.com/jobs/view/2676573016). Use your unique skills to build a better tomorrow and improve health, safety, quality of life in our communities. Please remember to include links to your open source profile.
+
+## Analytics Automation System
+
+Last month, we focused on rewriting our automation framework from scratch. The [crosscompute 0.9 branch](https://github.com/crosscompute/crosscompute/tree/0.9.0) that is in development is not yet compatible with the previous versions of our editing service and publishing platform. However, all of our previous systems are still running and ready to use: [0.8](https://crosscompute.com/authentications), [0.7](https://legacy.crosscompute.com/create).
+
+- Data Warehouse
+- Editing Service
+- Automation Framework: [code](https://github.com/crosscompute/crosscompute), [docs](https://github.com/crosscompute/crosscompute-docs), [examples](https://github.com/crosscompute/crosscompute-examples)
+- Publishing Platform
+- Analytics Marketplace
+
+Here is what has been done:
+
+- Reload the automations server when files change.
+- Serve multiple automations from a single configuration file by configuring `imports`.
+- Render images using the `image` view.
+- Render interactive maps from geojson using the `map-mapbox` view.
+
+Here is what we will do next:
+
+- Support template syntax for defining batches.
+- Finish the `map-pydeck-screengrid` and `markdown` views.
+- Prepare packages for PyPI.
+
+Here is how you can help:
+
+- Prototype more examples of reports, forms, tools, widgets, dashboards that you want to automate.
+- Suggest more views that you want to render in your automations.
+
+## Hazard Mitigation Planning System
+
+We began early planning work on how to integrate our previous algorithms for microgrid planning into a step-by-step form for benefit cost analysis, but the work is currently paused as we focus on rewriting our Analytics Automation System.
