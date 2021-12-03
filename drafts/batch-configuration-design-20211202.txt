@@ -16,7 +16,7 @@ The author can specify batch variables to load from specific paths such as a tex
 ```yaml
 batches:
   - name: {author_name} - {document_text}
-    folder: batches/{author_name | normalize_key}/{document_text | normalize_key}
+    folder: batches/{author_name}/{document_text}
     variables:
       - id: author_name
         path: datasets/quotes.csv
