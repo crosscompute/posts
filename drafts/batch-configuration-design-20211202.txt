@@ -11,7 +11,11 @@ batches:
         path: datasets/proverbs.txt
 ```
 
-The author can specify batch variables to load from specific paths such as a text file or spreadsheet in order to loop through different values of an input variable. Defining a batch variable was already supported in crosscompute 0.8 but we are moving the batch variable configuration to a separate section called `batches` and expanding functionality to support filters such as `normalize_key` and spreadsheet paths for batch variable combinations (see example below).
+The author can specify batch variables to load from specific paths such as a text file or spreadsheet in order to loop through different values of an input variable.
+
+If loading your batch variable from a text file, we will skip lines starting with the hash # character so that you easily comment out specific values.
+
+Defining a batch variable was already supported in crosscompute 0.8 but we are moving the batch variable configuration to a separate section called `batches` and expanding functionality to support filters such as `normalize_key` and spreadsheet paths for batch variable combinations (see example below).
 
 ```yaml
 batches:
