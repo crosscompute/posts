@@ -1,10 +1,12 @@
+# 2022-01 Analytics Content
+
 In 2022-01, we published 1 report, 2 automations and 8 examples using [crosscompute 0.9.0](https://pypi.org/project/crosscompute).
 
-# Reports
+## Reports
 
 - [Locating Hospitals in Mayfield, Kentucky, USA](https://forum.crosscompute.com/t/hazard-mitigation/167) presents the [Find Places](https://crosscompute.net/a/find-places) tool for gathering critical building location data, based on the task of locating medical infrastructure in Mayfield, Kentucky. The town was recently hit by a tornado that caused widespread power outages. Locating buildings is the first step in planning a microgrid that can keep critical buildings operational during an emergency.
 
-# Automations
+## Automations
 
 { find-places-screenshot }
 
@@ -14,7 +16,7 @@ In 2022-01, we published 1 report, 2 automations and 8 examples using [crosscomp
 
 - [Send Emails](https://crosscompute.net/a/send-emails) is a tool for automating emails where each recipient receives a different message with attachments, based on a template.
 
-# Examples
+## Examples
 
 - [Gather Locations](https://crosscompute.net/a/gather-locations) is an example of a form for gathering location data. The [example configuration](https://github.com/crosscompute/crosscompute-examples/blob/master/forms/gather-locations/gather.yml) demonstrates how to specify input variables for your form. The [example script](https://github.com/crosscompute/crosscompute-examples/blob/master/forms/gather-locations/gather.py) saves geocoded locations to a file and uses `flock` to ensure that only one process is accessing the file at any time.
 - [Manage Locations](https://crosscompute.net/a/manage-locations) is an example of a widget for mapping location data gathered from the [Gather Locations](https://crosscompute.net/a/gather-locations) form. The [example configuration](https://github.com/crosscompute/crosscompute-examples/blob/master/forms/gather-locations/manage.yml) demonstrates how to map the collected locations using `view: map-deck-screengrid`. The [example script](https://github.com/crosscompute/crosscompute-examples/blob/master/forms/gather-locations/manage.py) saves coordinates for each location and computes the map viewport.
@@ -27,7 +29,7 @@ In 2022-01, we published 1 report, 2 automations and 8 examples using [crosscomp
 
 { paint-letters-screenshot }
 
-# Announcements
+## Announcements
 
 - [crosscompute 0.9.0](https://pypi.org/project/crosscompute) is available on PyPI.
 - [crosscompute 0.9.1](https://github.com/crosscompute/crosscompute/tree/0.9.1) is in development.
