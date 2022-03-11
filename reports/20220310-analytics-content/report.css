@@ -7,3 +7,6 @@ img {
   margin: auto;
   max-width: 100%;
 }
+.content-counts td:not(:first-child) {
+  text-align: right;
+}
