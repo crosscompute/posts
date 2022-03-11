@@ -44,7 +44,7 @@ We did not publish any reports in 2022-02.
 - [crosscompute-views-map 0.1.1.2](https://pypi.org/project/crosscompute-views-map) supports incremental variable refresh.
 - [crosscompute-printers-pdf 0.2.0](https://pypi.org/project/crosscompute-printers-pdf) can print pdfs from automations via `crosscompute --print pdf`.
 - [jupyterlab-crosscompute 0.2.1](https://pypi.org/project/jupyterlab-crosscompute) adds support for launching our development server directly within JupyterLab.
-- [Documentation for the framework](https://docs.crosscompute.com) is online. Please see [configuration.yaml](https://github.com/crosscompute/crosscompute/blob/develop/crosscompute/templates/configuration.yml) for available configuration options.
+- [Documentation for the framework](https://docs.crosscompute.com) is online. Please see [configuration.yml](https://github.com/crosscompute/crosscompute/blob/develop/crosscompute/templates/configuration.yml) for available configuration options.
 
 ## Links
 
