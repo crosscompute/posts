@@ -1,0 +1,63 @@
+---
+# version of crosscompute
+crosscompute: 0.9.1
+
+# name of your automation
+name: 2022-02 Analytics Content
+
+# version of your automation
+version: 0.0.1
+
+# output configuration
+output:
+
+  # output variables
+  # - id to use when referencing your variable in the template
+  # - view to use when rendering your variable on the display
+  # - path where your script saves the variable,
+  #   relative to the output folder
+  variables:
+    - id: content-counts
+      view: table
+      path: content-counts.json
+    - id: draft-investment-strategy
+      view: image
+      path: draft-investment-strategy.png
+    - id: title-videos
+      view: image
+      path: title-videos.png
+    - id: see-next-goals
+      view: image
+      path: see-next-goals.png
+    - id: run-onsset
+      view: image
+      path: run-onsset.png
+    - id: randomize-histograms-batch-reference-folder
+      view: image
+      path: randomize-histograms-batch-reference-folder.png
+    - id: compute-logarithms
+      view: image
+      path: compute-logarithms.png
+    - id: compute-logarithms-configuration
+      view: image
+      path: compute-logarithms-configuration.png
+
+  # output templates
+  # - path to your markdown template or jupyter notebook form
+  templates:
+    - path: report.md
+
+# batches configuration
+# - folder that contains an input subfolder with paths for
+#   input variables that define a specific batch
+batches:
+  - folder: batches/standard
+
+# display configuration
+display:
+
+  # styles configuration
+  # - uri to CSS stylesheet that will be used to render your templates
+  # - path to CSS stylesheet that will be used to render your templates
+  styles:
+    - path: report.css

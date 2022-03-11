@@ -1,0 +1,9 @@
+table {
+  border-spacing: 2em;
+  margin: auto;
+}
+img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
