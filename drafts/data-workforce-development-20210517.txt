@@ -1,0 +1,13 @@
+# Data Workforce Development
+
+It can be harder to find new people with whom you can work than to upskill people you already trust. If you have been trying to hire data engineers, data scientists and data analysts and have been frustrated by scant response or high turnover, consider launching a CrossCompute Data Analytics Training program for your organization. Invest in your existing workforce — those who understand your organization and who believe in your vision — because the value of data is in the interpretation that derives from experience. Furthermore, there is significant benefit in having domain expertise and data analysis wired into the same brain as that person will be able to ask and answer the right questions.
+
+CrossCompute has a track record of training top quality data engineers, data scientists and data analysts. We are particularly good at finding people with hidden talent from disadvantaged backgrounds. After an initial screening process, trainees enroll in a 3-6 month program that ends with a presentation of reports or products that the trainee has prototyped and automated from scratch. The sponsoring organization can choose the kinds of reports or products they would like to have created by trainees.
+
+CrossCompute currently offers the following training programs:
+
+- Report Automation Training + Support: Receive Training + Support to accelerate the automation of interactive HTML and static PDF reports that must be delivered on a recurring basis and that contain tables, charts, maps customized for each recipient.
+- Computational Analysis Training + Support: Learn to apply advanced analytical techniques in your reports. Topics include infrastructure planning, operations research, spatial optimization, spatial analysis, remote sensing, financial analysis and office automation.
+- Platform Development Training + Support: Build your own analytics platform from scratch within your organization. Topics include platform architecture, design and engineering.
+
+Other training programs are available as well. Contact us to design a custom curriculum based on your needs. Schedule a call at https://calendly.com/crosscompute/30min or send a message to contact@crosscompute.com.

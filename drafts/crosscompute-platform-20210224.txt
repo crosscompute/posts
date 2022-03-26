@@ -1,0 +1,3 @@
+# CrossCompute Platform 1.9.5
+
+We are proud to announce the release of CrossCompute Platform 1.9.5. [Click here for detailed release notes](https://forum.crosscompute.com/t/crosscompute-platform-1-9-5-release-notes/156).
