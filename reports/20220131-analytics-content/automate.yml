@@ -1,6 +1,6 @@
 ---
 # version of crosscompute
-crosscompute: 0.9.1
+crosscompute: 0.9.2
 
 # name of your automation
 name: 2022-01 Analytics Content
@@ -37,3 +37,14 @@ output:
 #   input variables that define a specific batch
 batches:
   - folder: batches/standard
+
+# display configuration
+display:
+
+  # pages configuration
+  # - id of the page (required)
+  # - configuration of the page
+  pages:
+    - id: automation
+      configuration:
+        design: output

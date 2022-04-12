@@ -1,1 +1,5 @@
+# vim
 *.sw[op]
+*~
+# python
+.ipynb_checkpoints
