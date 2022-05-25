@@ -7,3 +7,4 @@ crosscompute: 0.9.2
 imports:
   - path: reports/20220131-analytics-content/automate.yml
   - path: reports/20220310-analytics-content/automate.yml
+  - path: reports/20220517-analytics-content/automate.yml
