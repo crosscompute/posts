@@ -1,23 +1,22 @@
 ---
 crosscompute: 0.9.2
-name: 2022-01 Analytics Content
+name: 2022-04 Analytics Content
 version: 0.0.1
 output:
   variables:
-    - id: find-places-screenshot
+    - id: content-counts
+      view: table
+      path: content-counts.json
+    - id: ram-usage-history
       view: image
-      path: find-places.png
-    - id: send-emails-screenshot
-      view: image
-      path: send-emails.png
-    - id: paint-letters-screenshot
-      view: image
-      path: paint-letters.svg
+      path: ram-usage-history.png
   templates:
     - path: report.md
 batches:
   - folder: batches/standard
 display:
+  styles:
+    - path: report.css
   pages:
     - id: automation
       configuration:
