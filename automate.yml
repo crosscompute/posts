@@ -5,6 +5,6 @@ crosscompute: 0.9.2
 # imports configuration
 # - path to the configuration file that you want to import
 imports:
-  - path: reports/20220131-analytics-content/automate.yml
-  - path: reports/20220310-analytics-content/automate.yml
-  - path: reports/20220517-analytics-content/automate.yml
+  - path: posts/20220131-analytics-content/automate.yml
+  - path: posts/20220310-analytics-content/automate.yml
+  - path: posts/20220517-analytics-content/automate.yml

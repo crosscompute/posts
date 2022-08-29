@@ -1,0 +1,12 @@
+table {
+  border-spacing: 1em;
+  margin: auto;
+}
+img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+.content-counts td:not(:first-child) {
+  text-align: right;
+}

@@ -1,0 +1,47 @@
+---
+crosscompute: 0.9.2
+name: 2022-08 Analytics Content
+version: 0.0.1
+output:
+  variables:
+    - id: content-counts
+      view: table
+      path: content-counts.json
+    - id: jupyterlab-crosscompute-input
+      view: image
+      path: jupyterlab-crosscompute-input.png
+    - id: jupyterlab-crosscompute-log
+      view: image
+      path: jupyterlab-crosscompute-log.png
+    - id: benefit-cost-ratio
+      view: image
+      path: benefit-cost-ratio.png
+    - id: airport-traffic
+      view: image
+      path: airport-traffic.png
+    - id: internet-speed
+      view: image
+      path: internet-speed.png
+    - id: cell-towers
+      view: image
+      path: cell-towers.png
+    - id: electricity-outage
+      view: image
+      path: electricity-outage.png
+    - id: random-points
+      view: image
+      path: random-points.png
+  templates:
+    - path: report.md
+batches:
+  - folder: batches/standard
+display:
+  styles:
+    - path: report.css
+  pages:
+    - id: automation
+      configuration:
+        design: output
+    - id: output
+      configuration:
+        design: none
